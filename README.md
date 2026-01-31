@@ -96,3 +96,36 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+# Turinix – Scheduling Orders Backend System
+
+## 📌 Project Overview
+This project is a backend service developed as part of the **Turinix Code Assessment**.  
+The system allows users to schedule **one-time** and **recurring orders**, which are executed reliably using a **queue-based job scheduling mechanism**.
+
+The application demonstrates clean architecture, modular design, and asynchronous job processing using **NestJS and Bull Queue**.
+
+---
+
+## 🎯 Features
+- Mock user authentication (login simulation)
+- Create, view, update, and delete scheduled orders
+- Support for one-time and recurring (daily) orders
+- Queue-based job scheduling using Bull and Redis
+- Asynchronous order execution
+- Console-based notifications on order execution
+- Clean and modular code structure
+
+---
+
+## 🛠 Tech Stack
+- **Node.js**
+- **NestJS**
+- **TypeScript**
+- **Bull Queue**
+- **Redis**
+- **Postman** (for API testing)
+
+---
+
+## 📂 Project Structure
