@@ -128,7 +128,18 @@ The application demonstrates clean architecture, modular design, and asynchronou
 
 ---
 
-## 📂 Project Structure
-Step 1: Install Required Tools
+ Project Initialization
+
+### Step 1: Install Required Tools
 ```bash
 npm install -g @nestjs/cli
+
+Project Structure
+src/
+├── auth/          # Mock authentication
+├── users/         # User entity
+├── orders/        # Order CRUD & scheduling logic
+├── queue/         # Bull queue processor
+├── app.module.ts
+└── main.ts
+
