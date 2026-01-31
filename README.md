@@ -143,3 +143,56 @@ src/
 ├── app.module.ts
 └── main.ts
 
+# Testing :
+Tools Used
+Postman
+
+Tested APIs
+Login
+
+Create order
+
+View orders
+
+Update order
+
+Delete order
+
+Verify execution via logs
+
+🧠 Assumptions
+Authentication is mocked
+
+Orders are stored in memory
+
+Fixed product and quantity
+
+Console logs simulate notifications
+
+Single Redis instance
+
+
+▶️ How to Run & Test the Scheduling Orders Solution
+✅ Prerequisites
+Make sure these are installed:
+
+Node.js (LTS)
+
+NestJS CLI
+
+Redis
+
+Postman (for testing APIs)
+
+
+Summary
+npm install → install dependencies
+
+redis-server → start Redis
+
+npm run start:dev → run app
+
+Use Postman → test APIs
+
+Check logs → verify scheduling
+
